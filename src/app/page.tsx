@@ -36,7 +36,7 @@ export default function Page() {
                 />
                 <WordRotate
                   className="text-transparent  bg-clip-text text-6xl font-bold p-2 rounded bg-gradient-to-r from-amber-200 to-yellow-500 dark:text-white"
-                  words={["Web Developer", "Data Entuas", "Alif Gf"]}
+                  words={["Web Developer", "Data Entuas"]}
                 />
               </BlurFade>
               <BlurFadeText
@@ -183,8 +183,8 @@ export default function Page() {
                   I like building things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended ngerjain beberapa
-                  project bisa kamu ceritain bub
+                  During my time in university, I participated in both individual and group projects
+                  {/* project bisa kamu ceritain bub */}
                 </p>
               </div>
             </div>
