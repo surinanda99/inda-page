@@ -46,8 +46,8 @@ export default function Page() {
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-44 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+              <Avatar className="size-44 border overflow-hidden">
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-cover w-full h-full" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -153,7 +153,7 @@ export default function Page() {
               <BlurFade
                 className={`${id === 0 ? "sm:col-span-2" : ""}`}
                 key={project.title}
-                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}               
               >
                 <ProjectCard
                   href={project.href}

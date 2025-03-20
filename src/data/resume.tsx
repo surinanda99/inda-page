@@ -3,16 +3,16 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Surinanda",
-  initials: "",
+  initials: "suri",
   url: "https://dillion.io",
   location: " Indonesia, Semarang",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "I love building creative and functional solutions that bring ideas to life.",
-  summary: `I'm deeply passionate about web, software development, and data, with a strong interest in creating innovative applications. I enjoy learning, 
-collaborating, and bringing creative ideas to life. Excited to contribute to impactful projects and be part of teams driving technological 
+  summary: `I'm deeply passionate about web, software development, and data. I have a strong interest in creating innovative applications. I enjoy learning, 
+collaborating, and bringing creative ideas to life. I'm excited to contribute to impactful projects and be part of teams driving technological 
 advancements`,
-  avatarUrl: "#",
+  avatarUrl: "/porto.png",
   skills: [
     "Javascript",
     "Typescript",
@@ -134,7 +134,7 @@ advancements`,
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/kp.jpg",
       video: "#",
     },
 
